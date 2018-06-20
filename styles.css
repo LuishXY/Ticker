@@ -12,7 +12,7 @@ body{
 
 .container{
         background: black;
-        height: 100px;
+        height: 3em;
         width: auto;
 }
 
@@ -24,7 +24,7 @@ body{
 
 #news {
       color: #fff;
-      font-size: 16px;
-      padding:60px 4px 0 2px ;
+      font-size: 1em;
+      padding:1em 1em 0 1em ;
 }
 
