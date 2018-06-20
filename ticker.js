@@ -11,7 +11,7 @@ request.onload = function () {
     console.log(request.statusText);
     var myObj = data.data;
     for(var i in myObj.output){
-      x+= "&#9671;"+myObj.output[i].title;
+      x+= "  "+myObj.output[i].title;
     }
     document.getElementById("news").innerHTML = x;
   } else {
